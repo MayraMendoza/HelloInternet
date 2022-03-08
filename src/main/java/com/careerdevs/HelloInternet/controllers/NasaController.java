@@ -16,7 +16,6 @@ public class NasaController {
 //    @Value("myNasaKey")
 
 
-//    private String apiKey = "vdXG8eGPuRtlZNHF9o5q13jZuoNlIE1VIcbFcSFP"; //DEMO_KEY
     private String nasaApodEndpoint = "https://api.nasa.gov/planetary/apod?api_key=";
 
     /*
