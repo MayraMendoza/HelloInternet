@@ -10,6 +10,16 @@ import java.util.Random;
 @RestController
 public class RootControllerClass {
 
+
+    /*
+    @description: this is the root route or home of the server
+    @path:
+    * Method:GET
+    * path: /
+    * HOST : localhost:3010
+    * URL: http://localhost:3010/
+    * where is this server being hosted? this could change - depending on where it runs.
+    **/
     @GetMapping("/")
     private String rootRoute (){
         return "you requested the root route";
@@ -39,3 +49,5 @@ public class RootControllerClass {
 
     }
 }
+// ROUTE are the requests we
+// what is a route handler = handle incoming requests. it tells a program what to do when a particular request is made.
